@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/layout_background"> <!-- Replace background_image with your actual background drawable -->
+
+
+    <TextView
+        android:id="@+id/textViewViolationProof"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Violation Proof"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"/>
+
+    <ImageView
+        android:id="@+id/imageViewViolationProof"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/textViewViolationProof"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"/>
+
+    <!-- Back button -->
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Pay Now button -->
+    <Button
+        android:id="@+id/buttonToPayment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Proceed to Payment"
+        android:layout_alignParentEnd="true"
+        android:layout_alignBottom="@id/buttonBack"
+        android:layout_marginEnd="16dp"/>
+
+</RelativeLayout>

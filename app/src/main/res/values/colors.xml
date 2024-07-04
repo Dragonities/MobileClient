@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#FFFFFF</color>
+    <color name="yellow">#FFD700</color>
+    <color name="colorBeforeFloating">#FF0000</color> <!-- Example color -->
+    <color name="hintColorBeforeFloating">#AAAAAA</color> <!-- Example color -->
+    <color name="hintColorFocused">#FFFFFF</color> <!-- Example color -->
+    <color name="boxColorFocused">#00FF00</color> <!-- Example color -->
+
+</resources>
